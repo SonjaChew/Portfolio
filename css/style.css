@@ -23,14 +23,14 @@
     width: 155px;
     font-size: 15px;
     color:#E5E5E5;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Assistant', sans-serif;
     text-align: center;
     border-radius: 10px;
 }
 
 h1 {
     color: #545454;
-    font-family: 'Noto Serif SC', serif;
+    font-family: 'Pontano Sans', sans-serif;
     font-size: 30px;
 }
 p {
@@ -41,7 +41,7 @@ p {
     font-size: 18px;
     width: 640px;
     font-style: normal;
-    font-family: 'Noto Serif SC', serif;
+    font-family: 'Assistant', sans-serif;
     text-align: center;
 }
 #WASHwatch:hover img{
@@ -49,20 +49,36 @@ p {
     transform: scale(1.1);
     filter: brightness(.5);
 }
+#WASHwatch:hover h3{
+    transition: all 1s ease-in-out;
+    display: inline-block;
+}
 #Prime:hover img{
     transition: all 1s ease-in-out;
     transform: scale(1.1);
     filter: brightness(.5);
+}
+#Prime:hover h3{
+    transition: all 1s ease-in-out;
+    display: inline-block;
 }
 #Asha:hover img{
     transition: all 1s ease-in-out;
     transform: scale(1.1);
     filter: brightness(.5);
 }
+#Asha:hover h3{
+    transition: all 1s ease-in-out;
+    display:inline-block;
+}
 #planana:hover img{
     transition: all 1s ease-in-out;
     transform: scale(1.1);
     filter: brightness(.5);
+}
+#planana:hover h3{
+    transition: all 1s ease-in-out;
+    display:inline-block;
 }
 span {
     position: absolute;
@@ -74,6 +90,15 @@ span {
     margin: 2px;
     padding: 3px 0px;
     font-size: 16px;
+}
+h3 {
+    display:none;
+}
+
+#WASHwatch:hover span{
+    transition: all 1s ease-in-out;
+    transform: scale(1.1);
+    filter: brightness(.5);
 }
 .footer {
     display:inline-block;
