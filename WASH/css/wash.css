@@ -1,0 +1,83 @@
+#logo{
+    padding-right: 10px;
+}
+#para {
+    display: flex;
+    justify-content: center;
+
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #545454;
+    padding-top: 75px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 48px;
+
+}
+p {
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    text-align: center;
+    color: #545454;
+    font-size: 14px;
+    width: 640px;
+    font-style: normal;
+    font-family: 'Assistant', sans-serif;
+    text-align: center;
+
+}
+#washHero {
+    display: flex;
+    justify-content: center;
+    width: 876px;
+    height: 579px;
+    left: 138px;
+    top: 390px;
+    margin:auto;
+}
+.footer {
+    display:inline-block;
+    color: #545454;
+    font-family:'Assistant', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    height: auto;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    text-align: center;
+    padding-top: 10px;
+}
+.About {
+    padding-left: 10px;
+    padding-right:10px;
+}
+.Work {
+    padding-left:10px;
+    padding-right:10px;
+}
+.Resume {
+    padding-left: 10px;
+    padding-right:20px;
+}
+.foot {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 14px;
+    font-style: normal;
+    font-family: 'Assistant', serif;
+    color: #545454;
+    padding-left: 20px;
+}
+#icon {
+    text-align: right;
+    max-width: 208px;
+    display: flex;
+    align-items: flex-end;
+    padding-right: 20px;
+}
+footer {
+    margin-bottom: 20px;
+}

@@ -15,7 +15,7 @@
 #hero {
     border: 20px white solid;
     border-radius: 50%;
-    max-width: 200px ;
+    max-width: 200px;
 }
 .button {
     background-color: #5C7685;
@@ -30,13 +30,12 @@
 
 h1 {
     color: #545454;
-    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Questrial', sans-serif;
     font-size: 30px;
 }
 p {
     display: flex;
     justify-content: center;
-
     color: #545454;
     font-size: 18px;
     width: 640px;
@@ -93,6 +92,7 @@ span {
 }
 h3 {
     display:none;
+    font-family: 'Questrial', sans-serif;
 }
 
 #WASHwatch:hover span{

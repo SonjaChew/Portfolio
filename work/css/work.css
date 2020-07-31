@@ -1,6 +1,6 @@
 h2 {
     color: #545454;
-    font-family: 'Noto Serif SC', serif;
+    font-family: 'Questrial', sans-serif;
     font-size: 30px;
 }
 #title {
@@ -12,26 +12,53 @@ h2 {
     transform: scale(1.1);
     filter: brightness(.5);
 }
+#WASHwatch:hover span{
+    transition: all 1s ease-in-out;
+    display: inline-block;
+}
 #Prime:hover img{
     transition: all 1s ease-in-out;
     transform: scale(1.1);
     filter: brightness(.5);
+}
+#Prime:hover span{
+    transition: all 1s ease-in-out;
+    display: inline-block;
 }
 #Asha:hover img{
     transition: all 1s ease-in-out;
     transform: scale(1.1);
     filter: brightness(.5);
 }
+#Asha:hover span{
+    transition: all 1s ease-in-out;
+    display: inline-block;
+}
 #planana:hover img{
     transition: all 1s ease-in-out;
     transform: scale(1.1);
     filter: brightness(.5);
 }
+#planana:hover span{
+    transition: all 1s ease-in-out;
+    display: inline-block;
+}
 span {
     position: absolute;
     color: white;
-    font-family:'Noto Serif SC', serif ;
-
+    font-family:'Questrial', sans-serif ;
+    font-size: 28px;
+    display: none;
+    left:50px;
+    right:50px;
+    bottom:50px;
+    margin: 2px;
+    padding: 3px 0px;
+}
+p {
+    word-wrap: normal;
+    font-family:'Assistant', sans-serif ;
+    font-size: 14px;
 }
 .footer {
     display:inline-block;
