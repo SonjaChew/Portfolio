@@ -1,11 +1,6 @@
 #logo{
     padding-right: 10px;
 }
-#para {
-    display: flex;
-    justify-content: center;
-
-}
 h1 {
     display: flex;
     justify-content: center;
@@ -15,17 +10,26 @@ h1 {
     font-size: 48px;
 
 }
-p {
-    display: flex;
-    justify-content: center;
-    padding-top: 75px;
+#AshaDescription p {
+    padding-top: 30px;
+    margin:auto;
     text-align: center;
     color: #545454;
-    font-size: 14px;
-    width: 640px;
+    font-size: 18px;
     font-style: normal;
     font-family: 'Assistant', sans-serif;
     text-align: center;
+    width: 698px;
+    line-height: 30px;
+}
+#para p{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 30px;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
 
 }
 #ashaHero {
@@ -36,6 +40,35 @@ p {
     left: 139px;
     top: 371px;
     margin:auto;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #545454;
+    padding-top: 35px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 38px;
+}
+h3 {
+    color: #545454;
+    padding-top: 75px;
+    font-family: 'Questrial', sans-serif;
+}
+p {
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: left;
+    font-family: 'Assistant', sans-serif;
+    color: #545454;
+    line-height: 30px;
+}
+#MeenaRamya {
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    padding-top: 75px;
+
 }
 .footer {
     display:inline-block;

@@ -8,9 +8,14 @@
     text-align: center;
     z-index: -1;
 }
-#para {
-    display: flex;
-    justify-content: center;
+#para p{
+    margin: auto;
+    color: #545454;
+    font-size: 16px;
+    width: 640px;
+    font-style: normal;
+    font-family: 'Assistant', sans-serif;
+    text-align: center;
 }
 #hero {
     border: 20px white solid;
@@ -33,22 +38,12 @@ h1 {
     font-family: 'Questrial', sans-serif;
     font-size: 30px;
 }
-p {
-    display: flex;
-    justify-content: center;
-    color: #545454;
-    font-size: 18px;
-    width: 640px;
-    font-style: normal;
-    font-family: 'Assistant', sans-serif;
-    text-align: center;
-}
 #WASHwatch:hover img{
     transition: all 1s ease-in-out;
     transform: scale(1.1);
     filter: brightness(.5);
 }
-#WASHwatch:hover h3{
+#WASHwatch:hover span{
     transition: all 1s ease-in-out;
     display: inline-block;
 }
@@ -57,7 +52,7 @@ p {
     transform: scale(1.1);
     filter: brightness(.5);
 }
-#Prime:hover h3{
+#Prime:hover span{
     transition: all 1s ease-in-out;
     display: inline-block;
 }
@@ -66,7 +61,7 @@ p {
     transform: scale(1.1);
     filter: brightness(.5);
 }
-#Asha:hover h3{
+#Asha:hover span{
     transition: all 1s ease-in-out;
     display:inline-block;
 }
@@ -75,30 +70,43 @@ p {
     transform: scale(1.1);
     filter: brightness(.5);
 }
-#planana:hover h3{
+#planana:hover span{
     transition: all 1s ease-in-out;
     display:inline-block;
 }
 span {
     position: absolute;
     color: white;
-    font-family:'Noto Serif SC', serif ;
-    left:30px;
-    right:0px;
-    bottom:100px;
+    font-family:'Questrial', sans-serif ;
+    font-size: 28px;
+    display: none;
+    left:50px;
+    right:50px;
+    bottom:30px;
     margin: 2px;
     padding: 3px 0px;
-    font-size: 16px;
 }
-h3 {
-    display:none;
-    font-family: 'Questrial', sans-serif;
+p {
+    word-wrap: normal;
+    font-family:'Assistant', sans-serif ;
+    font-size: 16px;
+    right:0px;
+    color: white;
+    margin: 2px;
+    padding: 3px 0px;
+    left:50px;
+    right:50px;
+    bottom:30px;
+
 }
 
-#WASHwatch:hover span{
-    transition: all 1s ease-in-out;
-    transform: scale(1.1);
-    filter: brightness(.5);
+.row {
+    margin-left:5px;
+    margin-right:5px;
+}
+.col {
+    margin-top:10px;
+    margin-bottom:10px;
 }
 .footer {
     display:inline-block;
