@@ -1,6 +1,3 @@
-#logo{
-    padding-right: 10px;
-}
 #para {
     display: flex;
     justify-content: center;
@@ -15,10 +12,10 @@ h1 {
     font-size: 48px;
 
 }
-p {
+#para p {
     display: flex;
     justify-content: center;
-    padding-top: 75px;
+    padding-top: 30px;
     text-align: center;
     color: #545454;
     font-size: 14px;
@@ -26,7 +23,37 @@ p {
     font-style: normal;
     font-family: 'Assistant', sans-serif;
     text-align: center;
+}
+.container1 h2{
 
+    padding-top:50px;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    padding-top: 50px;
+    max-width: 1052px;
+}
+.left{
+    padding-right:15px;
+}
+.right{
+    padding-left:15px;
+}
+p {
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: left;
+    font-family: 'Assistant', sans-serif;
+    color: #545454;
+    line-height: 30px;
+}
+#PrimeProbSol {
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    padding-top: 75px;
 }
 #primeHero {
     display: flex;
@@ -36,6 +63,41 @@ p {
     left: 138px;
     top: 431px;
     margin:auto;
+}
+#PrimeDescription p {
+    padding-top: 30px;
+    margin:auto;
+    text-align: center;
+    color: #545454;
+    font-size: 18px;
+    font-style: normal;
+    font-family: 'Assistant', sans-serif;
+    text-align: center;
+    width: 698px;
+    line-height: 30px;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #545454;
+    padding-top: 50px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 38px;
+}
+h3 {
+    color: #545454;
+    padding-top: 75px;
+    font-family: 'Questrial', sans-serif;
+}
+#PS {
+    padding-top:30px;
+}
+.container1 {
+    margin-top: 75px;
+    margin: auto;
+    border: 2px grey solid;
+    max-width: 698px;
+    height:144px;
 }
 .footer {
     display:inline-block;

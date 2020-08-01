@@ -1,5 +1,21 @@
-#logo{
-    padding-right: 10px;
+.InNav {
+    display:block;
+    width: 165px;
+    border: 2px lightgray solid;
+    position:fixed;
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+    color: #545454;
+    font-style: 'Assistant', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+.sideNav1:hover {
+    transition: all .5s ease-in-out;
+    background-color:#E5E5E5;
 }
 h1 {
     display: flex;
@@ -46,7 +62,7 @@ h2 {
     display: flex;
     justify-content: center;
     color: #545454;
-    padding-top: 35px;
+    padding-top: 50px;
     font-family: 'Questrial', sans-serif;
     font-size: 38px;
 }
@@ -54,6 +70,52 @@ h3 {
     color: #545454;
     padding-top: 75px;
     font-family: 'Questrial', sans-serif;
+}
+#PS {
+    padding-top:30px;
+}
+.container1 {
+    margin-top: 75px;
+    margin: auto;
+    border: 2px lightgray solid;
+    width: 100%;
+    height:144px;
+}
+section.UserResearch{
+    background-image: ;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 25%;
+    background-position: 50% 50%;
+}
+section.InformationArchitecture {
+    background-image: url('../../images/AshaIA.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 30%;
+    background-position: 50% 50%;
+    color:white;
+}
+#infoA{
+    position: absolute;
+    order:2;
+}
+.container1 h2{
+
+    padding-top:50px;
+}
+.container2 {
+    display: flex;
+    justify-content: center top;
+    margin:auto;
+    padding-top: 50px;
+    max-width: 1052px;
+}
+.left{
+    padding-right:20px;
+}
+.right{
+    padding-left:20px;
 }
 p {
     padding-top: 10px;
