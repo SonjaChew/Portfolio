@@ -1,3 +1,6 @@
+.myNav {
+    background-color: #1F2026 !important;
+}
 .InNav {
     display:block;
     width: 165px;
@@ -13,9 +16,13 @@
     padding-top: 20px;
 
 }
-.sideNav1:hover {
-    transition: all .5s ease-in-out;
+.side-nav {
+    height:25px
+}
+.side-nav:hover {
+    transition: all .25s ease-in-out;
     background-color:#E5E5E5;
+    background-size: 25px 165px;
 }
 h1 {
     display: flex;
@@ -92,7 +99,7 @@ section.InformationArchitecture {
     background-image: url('../../images/AshaIA.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size: 30%;
+    background-size: 35%;
     background-position: 50% 50%;
     color:white;
 }
@@ -104,12 +111,16 @@ section.InformationArchitecture {
 
     padding-top:50px;
 }
+.container1{
+    width:73%;
+}
 .container2 {
     display: flex;
     justify-content: center top;
     margin:auto;
     padding-top: 50px;
-    max-width: 1052px;
+    width:73%;
+
 }
 .left{
     padding-right:20px;
@@ -162,15 +173,19 @@ p {
     text-align: left;
     font-size: 14px;
     font-style: normal;
-    font-family: 'Assistant', serif;
+    font-family: 'Noto Serif SC', serif;
     color: #545454;
     padding-left: 20px;
 }
-#icon {
+.icon {
     text-align: right;
     max-width: 208px;
     display: flex;
     align-items: flex-end;
+}
+#icon {
+    text-align: right;
+    max-width: 208px;
     padding-right: 20px;
 }
 footer {

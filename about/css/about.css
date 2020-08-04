@@ -1,3 +1,7 @@
+.myNav {
+    background-color: #1F2026 !important;
+    width:100%;
+}
 #about {
     display:inline-block;
     width: 434px;
@@ -31,8 +35,13 @@
     line-height: 25px;
     color: #545454;
 }
+.ResumeButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
 .button {
-    background-color: #5C7685;
+    background-color: #1F2026;
     height: 45px;
     width: 155px;
     font-size: 15px;
@@ -40,6 +49,14 @@
     font-family: 'Assistant', sans-serif;
     text-align: center;
     border-radius: 10px;
+}
+.btn {
+    display:inline-block;
+    font-family: 'Assistant',sans-serif;
+}
+.card-body{
+    font-family: 'Assistant', sans-serif;
+    color:#545454;
 }
 .photoRow {
     display: none;
@@ -50,13 +67,54 @@
     left: 50px;
     top: 601px;
 }
+#skillsheading{
+    display:flex;
+    justify-content: center;
+    font-family: 'Questrial', sans-serif;
+    font-size: 40px;
+    color: #545454;
+
+}
 .imgsmall {
     width: 78px;
     height: 82px;
     left: 178px;
     margin: 10px 0px;
 }
-
+.mySkills {
+    width:1052px;
+    margin: auto;
+}
+#separator {
+    max-width: 73%;
+    margin: auto;
+}
+.card {
+    width:73% !important;
+    margin: auto;
+}
+#figmalogo {
+    padding-right: 30px;
+}
+.bg-info {
+    background-color: linear-gradient( #5C7685 )!important;
+}
+.progress-bar-animated {
+    animation: progress-bar-stripes 1s linear infinite;
+    background-color: #5C7685 !important;
+}
+.progress-bar-striped {
+    background-color:#5C7685 !important;
+    background-image: linear-gradient(45deg,rgba(74, 78, 83, 0.5) 25%,transparent 25%,transparent 50%,rgba(74, 78, 83,.5) 
+    50%,rgba(74, 78, 83, 0.5) 75%,transparent 75%,transparent)!important;
+    background-size: 1rem 1rem;
+}
+.progress-bar-striped:hover {
+    background-color:#3A8FBF !important;
+    background-image: linear-gradient(45deg,rgba(49, 106, 172, 0.5) 25%,transparent 25%,transparent 50%,rgba(49, 106, 172, 0.5) 
+    50%,rgba(49, 106, 172, 0.5) 75%,transparent 75%,transparent)!important;
+    background-size: 1rem 1rem;
+}
 .About {
     padding-left: 10px;
     padding-right:10px;
@@ -79,13 +137,20 @@
     color: #545454;
     padding-left: 20px;
 }
-#icon {
+.icon {
     text-align: right;
     max-width: 208px;
     display: flex;
     align-items: flex-end;
+}
+#icon {
+    text-align: right;
+    max-width: 208px;
     padding-right: 20px;
 }
 footer {
     margin-bottom: 20px;
+}
+#sign{
+    padding-right: 32px;
 }

@@ -1,3 +1,6 @@
+.myNav {
+    background-color: #1F2026 !important;
+}
 #para {
     display: flex;
     justify-content: center;
@@ -129,17 +132,24 @@ h3 {
     text-align: left;
     font-size: 14px;
     font-style: normal;
-    font-family: 'Assistant', serif;
+    font-family: 'Noto Serif SC', serif;
     color: #545454;
     padding-left: 20px;
 }
-#icon {
+.icon {
     text-align: right;
     max-width: 208px;
     display: flex;
     align-items: flex-end;
+}
+#icon {
+    text-align: right;
+    max-width: 208px;
     padding-right: 20px;
 }
 footer {
     margin-bottom: 20px;
+}
+#sign{
+    padding-right: 32px;
 }
